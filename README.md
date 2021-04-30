@@ -15,6 +15,8 @@ In this project, Different approaches are studied and discussed. Some of them ar
 7. Predicting Bug risk with git metadata
 8. Bug hotspots based on commit history.
 
+- REFER : Discussed_approaches_for_bug_analysis (1).ipynb
+
 ---------------
 
 ## Software metrics or features description:
@@ -35,7 +37,7 @@ d.Software vulnerability detection for Risk Analysis.
 ### a.  Software bug prediction at component(file) level:
 - Software code is composed of several components. If we know which components are likely to be defective, we can increase testing cost-effectiveness.
 - In this approach, predictive models can be created to identify components likely to be defective by using past software releases and bug fixes as training data for learning machines.
-- REFER
+- REFER: Software_Bug_prediction_at_Component(file)_level.ipynb
 ### B. Rule Based approach for bug prediction:
 - In this approach, software features or metrics are calculated and sets some threshold values to those metrics and checks whether the values are present in acceptable range for successful project. Otherwise, it needs to be redesign.
 - According to Halstead features,
@@ -46,30 +48,28 @@ d.Software vulnerability detection for Risk Analysis.
  	 	4. Halstead efforts < 500000
            5. Halstead time < 5000,     
 Otherwise, it needs to be redesign
-- REFER: 
+- REFER: Rule_Based_Software_metrics_for_bug_prediction.ipynb
+
 ### C. Bug prediction based on git commits and metadata:
 - Git tracks changes to a codebase as a series of ‘commits’.
 - we can utilize git utilities such as git log, git diff, git blame.
 - We identify all commits which fix bugs and figure out what each bugfix commit modified
-- REFER:
+- REFER: 
 ### D. Software vulnerability detection for risk analysis:
 - vulnerabilities can pose serious risk of exploit and result in system compromise, information leaks, or denial of service. 
 - The idea is to detect CWE(Common Weakness Enumeration) by leveraging labelled large dataset
 - we tokenize the program that need to be tested to feed to the model.
-- REFER: 
+- REFER: Software_Vulnerability_Detection.ipynb
 ## ISSUES TO CONSIDER:
 - Class imbalance
 - Data Availability
 - Dimensionality Curse
-- Temporal behavior
+- Temporal behavior<br>
 <b> We solve these isses by possible fixes</b>
 
 
 
 
-
-REFER - 
-## Usage
 
 
 -----------------
