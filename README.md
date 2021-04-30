@@ -20,7 +20,7 @@ In this project, Different approaches are studied and discussed. Some of them ar
 ---------------
 
 ## Software metrics or features description:
- A software metric is a measure of software characteristics that are quantifiable or countable. It includes McCabe metrics, Halstead features , simple static code measures.
+ A software metric is a measure of software characteristics that are quantifiable or countable. It includes McCabe metrics, Halstead features , simple static code measures.<br>
  <b>REFER: [Software Metrics description.pdf](https://github.com/PrudhviGNV/AI-models-for-bug-prediction/blob/main/Software%20Metrics%20description.pdf)</b>
  
  --------------
@@ -31,11 +31,11 @@ In this project, Different approaches are studied and discussed. Some of them ar
 - ---------------
 
 ## Proposed Work or approaches:
-In this project, we evaluate some approaches such as
-a.Software bug prediction at component level.
-b.Rule Based approach for bug prediction
-c.Bug prediction based on git commits and metadata.
-d.Software vulnerability detection for Risk Analysis.
+In this project, we evaluate some approaches such as<br>
+a. Software bug prediction at component level.<br>
+b. Rule Based approach for bug prediction<br>
+c. Bug prediction based on git commits and metadata.<br>
+d. Software vulnerability detection for Risk Analysis.<br>
 
 ### a.  Software bug prediction at component(file) level:
 - Software code is composed of several components. If we know which components are likely to be defective, we can increase testing cost-effectiveness.
