@@ -22,6 +22,7 @@ In this project, Different approaches are studied and discussed. Some of them ar
 ## Software metrics or features description:
  A software metric is a measure of software characteristics that are quantifiable or countable. It includes McCabe metrics, Halstead features , simple static code measures.
  REFER:
+ 
  --------------
 ## Packages Used:
 - Different packages are explored in this project such as pycallgraph, radon, multimetric, gitrisky etc..
@@ -34,6 +35,7 @@ a.Software bug prediction at component level.
 b.Rule Based approach for bug prediction
 c.Bug prediction based on git commits and metadata.
 d.Software vulnerability detection for Risk Analysis.
+
 ### a.  Software bug prediction at component(file) level:
 - Software code is composed of several components. If we know which components are likely to be defective, we can increase testing cost-effectiveness.
 - In this approach, predictive models can be created to identify components likely to be defective by using past software releases and bug fixes as training data for learning machines.
