@@ -15,7 +15,7 @@ In this project, Different approaches are studied and discussed. Some of them ar
 7. Predicting Bug risk with git metadata
 8. Bug hotspots based on commit history.
 
-- REFER : Discussed_approaches_for_bug_analysis (1).ipynb
+-<b> REFER : [Discussed_approaches_for_bug_analysis.ipynb](https://github.com/PrudhviGNV/AI-models-for-bug-prediction/blob/main/Discussed_approaches_for_bug_analysis%20(1).ipynb)</b>
 
 ---------------
 
@@ -27,6 +27,7 @@ In this project, Different approaches are studied and discussed. Some of them ar
 ## Packages Used:
 - Different packages are explored in this project such as pycallgraph, radon, multimetric, gitrisky etc..
 - Radon and multimetic comes handy for extracting software metrics from the software repository.
+
 - ---------------
 
 ## Proposed Work or approaches:
@@ -39,7 +40,7 @@ d.Software vulnerability detection for Risk Analysis.
 ### a.  Software bug prediction at component(file) level:
 - Software code is composed of several components. If we know which components are likely to be defective, we can increase testing cost-effectiveness.
 - In this approach, predictive models can be created to identify components likely to be defective by using past software releases and bug fixes as training data for learning machines.
-- REFER: Software_Bug_prediction_at_Component(file)_level.ipynb
+- <b>REFER: [Software_Bug_prediction_at_Component(file)_level.ipynb](https://github.com/PrudhviGNV/AI-models-for-bug-prediction/blob/main/Software_Bug_prediction_at_Component(file)_level.ipynb)</b>
 ### B. Rule Based approach for bug prediction:
 - In this approach, software features or metrics are calculated and sets some threshold values to those metrics and checks whether the values are present in acceptable range for successful project. Otherwise, it needs to be redesign.
 - According to Halstead features,
@@ -50,7 +51,7 @@ d.Software vulnerability detection for Risk Analysis.
  	 	4. Halstead efforts < 500000
            5. Halstead time < 5000,     
 Otherwise, it needs to be redesign
-- REFER: Rule_Based_Software_metrics_for_bug_prediction.ipynb
+- <b>REFER: [Rule_Based_Software_metrics_for_bug_prediction.ipynb](https://github.com/PrudhviGNV/AI-models-for-bug-prediction/blob/main/Rule_Based_Software_metrics_for_bug_prediction.ipynb)</b>
 
 ### C. Bug prediction based on git commits and metadata:
 - Git tracks changes to a codebase as a series of ‘commits’.
@@ -61,7 +62,7 @@ Otherwise, it needs to be redesign
 - vulnerabilities can pose serious risk of exploit and result in system compromise, information leaks, or denial of service. 
 - The idea is to detect CWE(Common Weakness Enumeration) by leveraging labelled large dataset
 - we tokenize the program that need to be tested to feed to the model.
-- REFER: Software_Vulnerability_Detection.ipynb
+- <b>REFER: [Software_Vulnerability_Detection.ipynb](https://github.com/PrudhviGNV/AI-models-for-bug-prediction/blob/main/Software_Vulnerability_Detection.ipynb)</b>
 ## ISSUES TO CONSIDER:
 - Class imbalance
 - Data Availability
