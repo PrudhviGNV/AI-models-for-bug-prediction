@@ -21,7 +21,7 @@ In this project, Different approaches are studied and discussed. Some of them ar
 
 ## Software metrics or features description:
  A software metric is a measure of software characteristics that are quantifiable or countable. It includes McCabe metrics, Halstead features , simple static code measures.
- REFER:
+ <b>REFER: [Software Metrics description.pdf](https://github.com/PrudhviGNV/AI-models-for-bug-prediction/blob/main/Software%20Metrics%20description.pdf)</b>
  
  --------------
 ## Packages Used:
